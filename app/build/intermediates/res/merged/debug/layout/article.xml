@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:touchscreenBlocksFocus="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp" >
+
+        <RelativeLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <!--Image Thumnail-->
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/image_view_thumnail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/tv_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop" />
+
+            <!--Title-->
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_view_thumnail"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:padding="5dp"
+                android:lineSpacingExtra="5sp"
+                android:maxLength="80"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:text="What's new in Android 6.0 Mashmallow?"
+                android:textSize="@dimen/title" />
+
+            <!--Number of View-->
+            <LinearLayout
+                android:id="@+id/layout_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:layout_alignBottom="@+id/image_view_thumnail"
+                android:layout_toRightOf="@+id/image_view_thumnail"
+                android:layout_toEndOf="@+id/image_view_thumnail">
+
+                <!--View Count Icon-->
+                <ImageView
+                    android:layout_width="@dimen/imgDesc"
+                    android:layout_height="@dimen/imgDesc"
+                    android:src="@drawable/ic_view_small" />
+
+                <!--View Count Text-->
+                <TextView
+                    android:id="@+id/tv_view"
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/description"
+                    android:text="100" />
+            </LinearLayout>
+
+            <!-- Date -->
+            <LinearLayout
+                android:id="@+id/layout_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:layout_above="@+id/layout_view"
+                android:layout_alignLeft="@+id/layout_view"
+                android:layout_alignStart="@+id/layout_view">
+
+                <!--Date Icon-->
+                <ImageView
+                    android:layout_width="@dimen/imgDesc"
+                    android:layout_height="@dimen/imgDesc"
+                    android:src="@drawable/ic_date_small" />
+
+                <!--Date Text-->
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/description"
+                    android:text="12-Dec-2015" />
+
+            </LinearLayout>
+
+            <!--Save Icon-->
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="@drawable/button_background_gredient"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:inputType="textCapWords"
+                android:text="@string/action_save"
+                android:layout_alignTop="@+id/layout_view"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:visibility="gone"/> <!-- android:background="@drawable/button_background_gredient" -->
+
+            <!-- Delete Icon -->
+            <ImageButton
+                android:id="@+id/btn_delete_save"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/layout_date"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/selector_btn_delete_saved_list"
+                android:visibility="gone"/>
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/image_view_logo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
+

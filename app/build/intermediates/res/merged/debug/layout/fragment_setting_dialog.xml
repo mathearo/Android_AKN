@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d7d7d7"
+    android:orientation="vertical">
+
+   <!-- <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        />-->
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="@string/language"/>
+
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/shape_edit_text_style_border"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+        </Spinner>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:maxLines="2"
+            android:textSize="16sp"
+            android:text="@string/scroll_animation"/>
+
+        <ToggleButton
+            android:id="@+id/tgBtnScollAnimation"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/shape_edit_text_style_border"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+        </ToggleButton>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_note"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#890d0d"
+            android:textStyle="italic"
+            android:text="@string/note"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="@string/app_will_restart_to_make_changed"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#860909"
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/button_background_gredient"
+        android:textColor="#FFFFFF"
+        android:text="@string/ok"/>
+
+</LinearLayout>

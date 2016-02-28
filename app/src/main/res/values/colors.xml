@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <!--Mathearo-->
+    <!--<color name="colorPrimary">#4E9C50</color>>
+    <color name="colorPrimaryDark">#479149</color>-->
+    <!--<color name="colorAccent">#4E9C50</color>-->
+    <!--<color name="tabColor">#bd13461d</color>
+    <color name="tabIndicatorColor">#f23712</color>
+    <color name="tabSelectedColor">#d9b0a8</color>-->
+
+    <color name="colorPrimary">#c10001</color>
+    <color name="colorPrimaryDark">#b40203</color> <!-- Good -->
+    <!--<color name="colorAccent">#b30506</color>-->
+    <color name="colorAccent">#ea890a</color>
+    <color name="tabColor">#080808</color>
+    <color name="tabIndicatorColor">#f23712</color>
+    <color name="tabSelectedColor">#d9b0a8</color>
+    <color name="windowBackgroundColor">#dfdddd</color>
+
+    <color name="loginActivity">#211818</color>
+
+    <!--Button Background Gradients-->
+    <color name="colorStart">#FFC82626</color>
+    <color name="colorCenter">#fd2c3d</color>
+    <color name="colorEnd">#a01e1e</color>
+    <color name="colorLink">#3096ef</color>
+</resources>

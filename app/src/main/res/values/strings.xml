@@ -1,0 +1,165 @@
+﻿<resources>
+    <string name="app_name">AKN</string>
+    <string name="app_full_name">ALL KHMER NEWS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search...</string>
+    <string name="no_result_for">No result for </string>
+
+    <!--Navigation Drawer Menu-->
+    <string name="nav_home">Home</string>
+    <string name="nav_statistic">Popular News</string>
+    <string name="nav_save_list">Saved Lists</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_about_us">About Us</string>
+
+    <string name="tv_view">0 View</string>
+    <string name="tv_date">Date</string>
+
+    <!--Tab Label-->
+    <string name="tab_home">HOME</string>
+    <string name="tab_category">CATEGORY</string>
+    <string name="tab_source">SOURCE</string>
+
+    <!--Overflow Menu on Article Item-->
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_save">Save</string>
+
+    <string name="view_label">View</string>
+    <string name="date_label">Date</string>
+
+    <!--Activity Label-->
+    <string name="main_activity_title">ALL KHMER NEWS</string>
+    <string name="article_detail_activity">NEWS</string>
+    <string name="list_by_category_activity">CATEGORY NAME</string>
+    <string name="search_activity">Search Result</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- String for activity change password​ and profile-->
+    <string name="chang_password">Change Password</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="btn_change">Change Password</string>
+    <string name="btn_update">Update</string>
+    <string name="profile">User Profile</string>
+    <string name="browse">Browse</string>
+    <string name="delete">Delete</string>
+
+    <string name="save_list">Saved Lists</string>
+    <string name="save">Save</string>
+    <string name="saved_lists_empty">Empty</string>
+
+    <!-- Login -->
+    <string name="forget_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="btn_login">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="email_hint">Email</string>
+    <string name="or">OR</string>
+
+    <!-- Sign Up Activity-->
+    <string name="complete_all_fills">Please complete all required fills.</string>
+    <string name="sign_up_failed">Sign Up Failed</string>
+    <string name="sign_up_success">Sign up completed</string>
+    <!-- Navigation Drawer -->
+    <string name="sign_up_with_email">Sign Up with Email</string>
+    <string name="already_have_an_account">Already had an account?</string>
+    <string name="login">Login</string>
+    <string name="copyright">©Copyright 2016 KhmerAcademy</string>
+    <string name="username_hint">Username</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <!-- Article Detail Activity -->
+    <string name="copyright_by">©Copyright 2016 KhmerAcademy</string>
+    <string name="ic_share">Share</string>
+    <string name="ic_open_in_browser">Open in browser</string>
+    <string name="source">Source:</string>
+    <string name="unable_to_load_content">Unable to load content. Server Error :(</string>
+    <string name="share_via">Share via:</string>
+    <!-- About Activity -->
+    <string name="about_us" >
+            AKN or All Khmer News is a news application which provides news
+        content from various news websites. From social, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+    </string>
+    <string name="contact">
+        *********************\n\n
+        CONTACT US</string>
+    <string name="address" >Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+    <string name="phone">+855 23 991 314</string>
+    <string name="email">info.kshrd@gmail.com</string>
+    <string name="website">news.khmeracademy.org</string>
+    <string name="about_us_title">About Us</string>
+
+
+    <!-- SettingDialogFragment -->
+    <string name="note">* Note: </string>
+    <string name="app_will_restart_to_make_changed">App will restart to make changed.</string>
+    <string name="language">Language</string>
+    <string name="scroll_animation">Scroll Animation</string>
+    <string name="english">English</string>
+    <string name="khmer">Khmer</string>
+    <string name="ok">OK</string>
+
+    <!-- ChangePasswordActivity -->
+    <string name="new_and_con_password_not_match">New password and confirm password did not match.</string>
+    <string name="success_change_password">Change password success.</string>
+    <string name="failed_change_password">Changed password failed.</string>
+
+    <!-- ProfileActivity -->
+    <string name="success_update_profile">Success update profile.</string>
+    <string name="failed_update_profile">Update profile failed.</string>
+
+    <!-- LoginActivity -->
+    <string name="login_failed">Login failed</string>
+    <string name="email_password_not_correct">Email or Password is not correct.</string>
+
+    <!-- Navigation Drawer Log Out -->
+    <string name="show_popular_news">Show Popular News</string>
+
+    <!-- Validation -->
+    <string name="validation_not_empty">Must not be empty.</string>
+    <string name="validation_valid_email">Must not be empty.</string>
+    <string name="validation_pass_min_length">Password is too short.</string>
+
+    <!--Statistic Activity-->
+    <string name="item">Item</string>
+    <string name="statistic">Popular News</string>
+    <string name="today">TODAY</string>
+    <string name="week">WEEK</string>
+    <string name="month">MONTH</string>
+    <string name="spinner_title1">Category</string>
+    <string name="spinner_title2">Source</string>
+    <string name="no_article">No News</string>
+
+    <!-- Category Fragment -->
+    <string name="popular_news">Popular News</string>
+
+    <!-- Dialog -->
+    <string name="please_login_to_save">Please login to save.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_confirm">Do you want to delete?</string>
+    <string name="confirm">Confirm</string>
+    <string name="deleted">Deleted</string>
+
+    <string name="msg_title_no_internet_connection">Checking Connection</string>
+    <string name="msg_no_internet_connection">No Internet connection. Please enable Internet connection.</string>
+    <string name="try_again">Try Again</string>
+    <string name="exit">Exit</string>
+
+    <string name="added_to_saved_lists">Added to Saved Lists.</string>
+</resources>

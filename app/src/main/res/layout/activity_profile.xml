@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/windowBackgroundColor"
+    tools:context="com.kshrd.android_akn.app.ProfileActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/profile_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#af0202"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:id="@+id/profile_picture"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_profile_default"
+                        app:siBorderColor="#f5510b"
+                        app:siBorderWidth="2dp"
+                        android:layout_centerHorizontal="true"> <!-- app:siBorderColor="@color/cardview_shadow_start_color" -->
+
+                    </com.github.siyamed.shapeimageview.CircularImageView>
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="30dp"
+                        android:maxWidth="30dp"
+                        android:id="@+id/progressSpinning"
+                        android:progressDrawable="@drawable/circle_progress_bar"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="32dp" />
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit"
+                        android:background=""
+                        android:layout_alignBottom="@id/nav_profile_picture"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="20dp" />-->
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnBrowsePhoto"
+                        android:visibility="visible"
+                        android:inputType="textCapWords"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:text="@string/browse"
+                        android:background="@drawable/shape_edit_button_profile"
+                        android:drawableLeft="@drawable/ic_insert_photo"
+                        android:textColor="#FFFFFF"
+                        android:layout_below="@+id/progressSpinning"
+                        android:layout_alignRight="@+id/progressSpinning"
+                        android:layout_alignEnd="@+id/progressSpinning"
+                        android:layout_gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/btnRemovePhoto"
+                        android:text="@string/delete"
+                        android:visibility="gone"
+                        android:inputType="textCapWords"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/shape_edit_button_profile"
+                        android:drawableLeft="@drawable/ic_close"
+                        android:textColor="#FFFFFF"
+                        android:layout_toRightOf="@+id/nav_profile_picture"
+                        android:layout_toEndOf="@+id/nav_profile_picture"
+                        android:layout_gravity="right" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_name"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape_edit_text_style_border"
+                    android:id="@+id/edit_profile_name"
+                    android:hint="@string/username_hint"
+                    android:layout_marginTop="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_update"
+                    android:text="@string/btn_update"
+                    android:background="@drawable/button_background_gredient"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_change_password"
+                    android:textColor="@color/colorLink"
+                    android:text="@string/chang_password"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:autoLink="all"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

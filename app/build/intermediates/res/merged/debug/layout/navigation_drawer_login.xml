@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.SaveListActivity"
+    android:background="@color/windowBackgroundColor"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/navigation_drawer_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingLeft="0dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Home Menu Item-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_nav_home"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:drawableLeft="@drawable/ic_home"
+                    android:text="@string/nav_home"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+            <!-- Statistic Menu Item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_nav_statistic"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:drawableLeft="@drawable/ic_star_small_black"
+                    android:text="@string/nav_statistic"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+            <!-- Saved List Menu Item-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btn_nav_saved_lists"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/nav_save_list"
+                    android:drawableLeft="@drawable/ic_save"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+            <!-- Setting Menu Item-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btn_nav_setting"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/nav_setting"
+                    android:drawableLeft="@drawable/ic_settings"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+            <!-- Logout Menu Item-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btn_nav_logout"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/nav_logout"
+                    android:drawableLeft="@drawable/ic_exit_to_app"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+            <!-- About Us Menu Item-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btn_nav_about_us"
+                    android:drawablePadding="10dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/nav_about_us"
+                    android:drawableLeft="@drawable/ic_favorite"
+                    android:background="@drawable/selector_menu_item_on_nav_drawer_login" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,199 @@
+﻿<resources>
+    <string name="app_name">AKN</string>
+    <string name="app_full_name">ALL KHMER NEWS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">ស្វែងរក</string>
+
+    <!--Navigation Drawer Menu-->
+    <string name="nav_home">ទំព័រដើម</string>
+    <string name="nav_statistic">ពត៌មានពេញនិយមប្រចាំថ្ងៃ</string>
+    <string name="nav_save_list">បញ្ជីរក្សាទុក</string>
+    <string name="nav_setting">ការកំណត់ផ្សេងៗ</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_about_us">អំពីពួកយើង</string>
+
+    <string name="tv_view">0 View</string>
+    <string name="tv_date">Date</string>
+
+    <!--Tab Label-->
+    <string name="tab_home">ទំព័រដើម</string>
+    <string name="tab_category">ប្រភេទ</string>
+    <string name="tab_source">ប្រភព</string>
+
+    <!--Overflow Menu on Article Item-->
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_save">រក្សាទុក</string>
+
+    <string name="view_label">View</string>
+    <string name="date_label">Date</string>
+
+    <!--Activity Label-->
+    <string name="main_activity_title">ALL KHMER NEWS</string>
+    <string name="article_detail_activity">ពត៌មាន</string>
+    <string name="list_by_category_activity">CATEGORY NAME</string>
+    <string name="search_activity">លទ្ធផលនៃការស្វែងរក</string>
+    <string name="title_activity_login">ចុះឈ្មោះ</string>
+
+    <!-- String for activity change password​ and profile-->
+    <string name="chang_password">ផ្លាស់ប្ដូរពាក្យសម្ងាត់</string>
+    <string name="profile_name">ឈ្មោះ</string>
+    <string name="profile_email">អ៊ីមែល</string>
+    <string name="old_pass">ពាក្យសម្ងាត់ចាស់</string>
+    <string name="new_pass">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="confirm_pass">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="btn_change">ផ្លាស់ប្ដូរពាក្យសម្ងាត់</string>
+    <string name="btn_update"> កែប្រែ</string>
+    <string name="profile">ពត៌មានរបស់អ្នក</string>
+
+    <string name="save_list">បញ្ជីរក្សាទុក</string>
+    <string name="save">រក្សាទុក</string>
+
+    <!-- Login -->
+    <string name="forget_password">ភ្លេចពាក្យសម្ងាត់ហើយមែនទេ?</string>
+    <string name="sign_up">បង្កើតគណនេយ្យ</string>
+    <string name="btn_login">ចុះឈ្មោះ</string>
+    <string name="password_hint">ពាក្យសម្ងាត់</string>
+    <string name="email_hint"> អ៊ីមែល</string>
+    <string name="or">ឬ</string>
+
+    <!-- Sign Up -->
+    <string name="complete_all_fills">សូមបំពេញរាល់ពត៌មានទាំងអស់។</string>
+    <string name="sign_up_failed">បរាជ័យក្នុងការបង្កើតគណនេយ្យ</string>
+    <!-- Navigation Drawer -->
+    <string name="sign_up_with_email">បង្កើតគណនេយ្យដោយប្រើអ៊ីមែល</string>
+    <string name="already_have_an_account">មានគណនេយ្យរួចហើយមែនទេ?</string>
+    <string name="login">ចុះឈ្មោះ</string>
+
+
+    <!-- Article Detail Activity -->
+    <string name="copyright_by"> ©រក្សាសិទ្ធ ២០១៦ ​ដោយ KhmerAcademy</string>
+    <string name="ic_share">ចែករំលែក</string>
+    <string name="ic_open_in_browser">បើកក្នុង Browser</string>
+    <string name="source">ប្រភពៈ</string>
+
+    <!-- About Activity -->
+    <string name="about_us" >AKN ឬ All Khmer News គឺជាកម្មវិធីពត៌មានមួយ ដែលផ្ដល់នូវពត៌មានជាច្រើនពីបណ្ដាវែបសាយល្បីៗក្នុងព្រះរាជាណាចក្រកម្ពុជា។ AKN បានរៀបចំពត៌មានទៅតាមប្រភេទដូចជា ពត៌មានសង្គម ពត៌មានអន្តរជាតិ ពត៌មានបច្ចេកវិទ្យា និងពត៌មានកំសាន្តជាដើម ដើម្បីអោយអ្នកអាន មានភាពងាយស្រួលក្នុងការអាន។ ដូច្នេះ សូមចាប់ផ្ដើមប្រើប្រាស់ AKN ចាប់ពីពេលនេះតទៅ។ សូមអរគុណ។</string>
+    <string name="test">
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+        ALL KHMER NEWS is a news application which provides news
+        content from various news websites. From socials, international, entertainment,
+        technology news to many other news categories, you can enjoy reading your favourite
+        news with our application. Start your new day with our application to know about things which
+        happen around the world quickly.
+    </string>
+    <string name="contact">*********************\n\n
+        ទំនាក់ទំនងមកកាន់ពួកយើង</string>
+    <string name="address" >Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+    <string name="phone">+855 23 991 314</string>
+    <string name="email">info.kshrd@gmail.com</string>
+    <string name="website">news.khmeracademy.org</string>
+    <string name="about_us_title">អំពីពួកយើង</string>
+
+
+    <!-- ChangePasswordActivity -->
+    <string name="new_and_con_password_not_match">New password and confirm password did not match.</string>
+    <string name="success_change_password">ជោគជ័យក្នុងការផ្លាស់ប្ដូរពាក្យសម្ងាត់។</string>
+    <string name="failed_change_password">បរាជ័យក្នុងការផ្លាស់ប្ដូរពាក្យសម្ងាត់ថ្មី។</string>
+
+    <!-- ProfileActivity -->
+    <string name="success_update_profile">ជោគជ័យក្នុងការកែប្រែពត៌មានរបស់អ្នក។</string>
+    <string name="failed_update_profile">បរាជ័យក្នុងការកែប្រែពត៌មានរបស់អ្នក។</string>
+
+
+    <!-- Validation -->
+    <string name="validation_not_empty">មិនអាចទទេរបានទេ។</string>
+    <string name="validation_valid_email">Must not be empty.</string>
+    <string name="validation_pass_min_length">Password is too short.</string>
+
+    <!--Statistic Activity-->
+    <string name="item">Item</string>
+    <string name="statistic">ពត៌មានពេញនិយម</string>
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="week">សប្ដាហ៍</string>
+    <string name="month">ខែ</string>
+    <string name="spinner_title1">Category</string>
+    <string name="spinner_title2">Source</string>
+
+    <!-- Dialog -->
+    <string name="please_login_to_save">សូមចុះឈ្មោះ ដើម្បីអាចរក្សាទុក។</string>
+
+    <string name="yes">បាទ</string>
+    <string name="no">ទេ</string>
+    <string name="delete_confirm"> តើអ្នកពិតជាចង់លុបមែនទេ?</string>
+    <string name="confirm">បញ្ជាក់</string>
+    <string name="copyright"> ©រក្សាសិទ្ធ ២០១៦ ​ដោយ KhmerAcademy</string>
+    <string name="exit">ចាកចេញ</string>
+    <string name="gender">ភេទ</string>
+    <string name="msg_no_internet_connection"> គ្មានការតភ្ជាប់បណ្ដាញអ៊ីនធើណែតទេ។ សូមភ្ជាប់ទៅកាន់បណ្ដាញអ៊ីនធើណែឥឡូវនេះ ដើម្បីប្រើប្រាស់កម្មវិធីនេះ។</string>
+    <string name="msg_title_no_internet_connection">ពិនិត្យមើលការភ្ជាប់បណ្ដាញ</string>
+    <string name="saved_lists_empty">ទទេរ</string>
+    <string name="try_again">ព្យាយាមម្ដងទៀត</string>
+    <string name="username_hint">ឈ្មោះ</string>
+    <string name="added_to_saved_lists">ត្រូវបានរក្សាទុកនៅក្នុង បញ្ជីរក្សាទុក។</string>
+    <string name="show_popular_news">បង្ហាញពត៌មានពេញនិយមប្រចាំថ្ងៃ</string>
+    <string name="search_hint">ស្វែងរក...</string>
+    <string name="no_result_for">រកមិនឃើញទេ ចំពោះ </string>
+    <string name="no_article">គ្មានពត៌មាន</string>
+    <string name="popular_news">ពត៌មានពេញនិយមប្រចាំថ្ងៃ</string>
+    <string name="male">ប្រុស</string>
+    <string name="female">ស្រី</string>
+    <string name="sign_up_success">ជោគជ័យក្នុងការបង្កើតគណនេយ្យ</string>
+    <string name="note">* សំគាល់ៈ </string>
+    <string name="app_will_restart_to_make_changed">កម្មវិធីត្រូវការបិទបើកម្ដងទៀតដើម្បីផ្លាស់ប្ដូរ។</string>
+    <string name="language">ភាសា</string>
+    <string name="scroll_animation">ចលនានៃការអូស</string>
+    <string name="khmer">ខ្មែរ</string>
+    <string name="english">អង់គ្លេស</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="login_failed">បរាជ័យក្នុងការចុះឈ្មោះ។</string>
+    <string name="email_password_not_correct">អ៊ីមែលរឺពាក្យសម្ងាត់មិនត្រឹមត្រូវ។</string>
+    <string name="confirm_password_hint">បញ្ជាក់ពាក្យសម្ងាត់ម្ដងទៀត</string>
+    <string name="unable_to_load_content">មិនអាចទាញទិន្នន័យបានទេ។​ មានបញ្ហាម៉ាស៊ីនមេ :(</string>
+    <string name="share_via">ចែករំលែកតាមរយៈ</string>
+    <string name="deleted">លុបបាត់</string>
+    <string name="browse">បើករករូបភាពថ្មី</string>
+    <string name="delete">លុបចោល</string>
+</resources>

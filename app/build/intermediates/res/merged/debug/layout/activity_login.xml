@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/WhiteTheme">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/akn_logo_red"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <EditText
+                    android:id="@+id/et_email_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_email_small"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_edit_text_style_border"
+                    android:padding="9dp"
+                    android:hint="@string/email_hint" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <EditText
+                    android:id="@+id/et_password_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="@string/password_hint"
+                    android:drawableLeft="@drawable/ic_lock_small"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_edit_text_style_border"
+                    android:padding="9dp"
+                    android:inputType="textPassword" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_login"
+                    android:text="@string/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_background_gredient"
+                    />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or"
+                android:paddingTop="20dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:paddingTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="#c10001"
+                />
+
+            <!-- Forget Password -->
+            <!--<TextView
+                android:id="@+id/tv_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forget_password"
+                android:paddingTop="20dp"
+                android:layout_gravity="center" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

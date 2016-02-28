@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-parallax-recyclerview-v1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.kanytu/android-parallax-recyclerview/v1.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.kanytu/android-parallax-recyclerview/v1.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

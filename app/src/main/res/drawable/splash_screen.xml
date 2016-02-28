@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:drawable="@android:color/white"/>
+<item>
+    <bitmap
+        android:gravity="center"
+        android:src="@drawable/akn_splash_screen_logo_red_small_with_word"/>
+</item>
+</layer-list>
+
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/akn_splash_screen_white"
+            />
+    </item>
+</layer-list>-->
