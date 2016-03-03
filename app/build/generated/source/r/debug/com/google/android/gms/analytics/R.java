@@ -32,8 +32,8 @@ public final class R {
 		public static final int gtm_analytics = 0x7f070000;
 	}
 	public static final class string {
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f0800a3;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f0800a4;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f0800a7;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f0800a8;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f080013;
 		public static final int common_android_wear_update_text = 0x7f080014;
 		public static final int common_android_wear_update_title = 0x7f080015;

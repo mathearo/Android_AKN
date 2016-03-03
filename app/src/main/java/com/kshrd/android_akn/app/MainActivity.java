@@ -9,7 +9,6 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -18,14 +17,11 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 
 import com.kshrd.android_akn.R;
 import com.kshrd.android_akn.adapter.ViewPagerAdapter;
@@ -215,7 +211,7 @@ public class MainActivity extends AppCompatActivity implements Communication {
         // Disable Fullscreen editing mode when enters text to SearchView
         //searchView.setImeOptions(searchView.getImeOptions() | EditorInfo.IME_ACTION_SEARCH | EditorInfo.IME_FLAG_NO_EXTRACT_UI | EditorInfo.IME_FLAG_NO_FULLSCREEN);
 
-        mSearchView.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
+        mSearchView.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI|EditorInfo.IME_ACTION_SEARCH);
 
         mSearchView.setOnQueryTextListener(mSearchViewListener);
 
@@ -245,29 +241,5 @@ public class MainActivity extends AppCompatActivity implements Communication {
         tabLayout.getTabAt(tabNum).select();
     }
 
-    public void handleTabDoubleTab() {
-        final GestureDetectorCompat mDetector = new GestureDetectorCompat(this, new MyGestureListener(this));
-        tabLayout.getSelectedTabPosition();
-    }
-
 }
 
-class MyGestureListener extends GestureDetector.SimpleOnGestureListener {
-    private Context mContext;
-    public MyGestureListener(Context context) {
-        mContext = context;
-    }
-
-    @Override
-    public boolean onDoubleTap(MotionEvent e) {
-        Toast.makeText(mContext, "Double Tab", Toast.LENGTH_SHORT).show();
-        return true;
-    }
-
-    // Must Override this function and return true; so other functions
-    // will work.
-    @Override
-    public boolean onDown(MotionEvent e) {
-        return true;
-    }
-}

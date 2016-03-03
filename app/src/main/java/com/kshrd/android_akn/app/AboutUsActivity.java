@@ -7,9 +7,11 @@ import android.content.res.Configuration;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -23,6 +25,7 @@ public class AboutUsActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private AKNNavigationView aknNavigationView;
     private TextView linkNews;
+    private Button btnAKNTeam;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,6 +70,19 @@ public class AboutUsActivity extends AppCompatActivity {
                 Uri uriUrl = Uri.parse("http://news.khmeracademy.org/");
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
+            }
+        });
+
+        btnAKNTeam = (Button) findViewById(R.id.btnAKNTeam);
+        btnAKNTeam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(AboutUsActivity.this);
+                builder.setTitle("Android AKN Team");
+                builder.setView(R.layout.about_akn_team);
+                builder.setCancelable(true);
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
             }
         });
     }

@@ -72,6 +72,10 @@
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_button_1.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable\\shape_button_1.xml"
+    },
+    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },

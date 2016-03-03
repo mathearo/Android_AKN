@@ -48,11 +48,12 @@
                         android:text="@string/about_us"
                         android:textSize="16sp"
                         android:layout_marginTop="10dp"/>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/contact"
                         android:textColor="#000"
                         android:textStyle="bold"
@@ -93,6 +94,7 @@
                             android:text="@string/phone"
                             android:textColor="#000"/>
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -132,9 +134,20 @@
                             android:textColor="#1f18f9"
                             />
                     </LinearLayout>
+                    <Button
+                        android:id="@+id/btnAKNTeam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/shape_button_1"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:inputType="textCapWords"
+                        android:text="@string/developed_by"/>
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
 
     </ScrollView>
+
 </LinearLayout>

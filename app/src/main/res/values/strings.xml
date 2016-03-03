@@ -92,12 +92,9 @@
         content from various news websites. From social, international, entertainment,
         technology news to many other news categories, you can enjoy reading your favourite
         news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-    </string>
-    <string name="contact">
-        *********************\n\n
-        CONTACT US</string>
-    <string name="address" >Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+        happen around the world quickly.</string>
+    <string name="contact">*********************\nCONTACT US</string>
+    <string name="address" >Cambodia, #12, St. 323, Sangkak Beoung Kat 2 Khan Toul Kork</string>
     <string name="phone">+855 23 991 314</string>
     <string name="email">info.kshrd@gmail.com</string>
     <string name="website">news.khmeracademy.org</string>
@@ -162,4 +159,10 @@
     <string name="exit">Exit</string>
 
     <string name="added_to_saved_lists">Added to Saved Lists.</string>
+    <string name="buthmathearo">Buth Mathearo\nmathearo.buth@gmail.com</string>
+    <string name="limseudy">Lim Seudy\nseudylim@gmail.com</string>
+    <string name="thornsereyvong">Thorn Sereyvong\nsereyvong98@gmail.com</string>
+    <string name="chandana">Chan Dana\ndanachan235@gmail.com</string>
+    <string name="developed_by">Developed By: Android AKN Team</string>
+
 </resources>

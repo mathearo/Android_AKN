@@ -8,6 +8,10 @@
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro_welcome.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\intro_welcome.jpg"
+    },
+    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_star_white_small.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_star_white_small.png"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\akn_logo_white.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\akn_logo_white.png"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro2.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\intro2.jpg"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_exit_to_app.png",
@@ -132,12 +140,28 @@
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\dev_buth_mathearo.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\dev_buth_mathearo.jpg"
+    },
+    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro_last.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\intro_last.jpg"
+    },
+    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro1.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\intro1.jpg"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\dev_lim_seudy.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\dev_lim_seudy.jpg"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
@@ -154,6 +178,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_arrow_forward_white_24px.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.github.paolorotolo\\appintro\\3.3.0\\res\\drawable-xxxhdpi-v4\\ic_arrow_forward_white_24px.png"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\dev_chan_dana.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\dev_chan_dana.jpg"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_language.png",
@@ -182,6 +210,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_lock_small.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_lock_small.png"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\dev_thorn_sereyvong.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\dev_thorn_sereyvong.jpg"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_folder_small.png",
@@ -242,6 +274,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_delete_red_small_act.png",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_delete_red_small_act.png"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\intro3.jpg",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\drawable-xxxhdpi\\intro3.jpg"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",

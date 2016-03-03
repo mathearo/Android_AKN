@@ -6,7 +6,7 @@
     <string name="action_save">រក្សាទុក</string>
     <string name="action_search">ស្វែងរក</string>
     <string name="added_to_saved_lists">ត្រូវបានរក្សាទុកនៅក្នុង បញ្ជីរក្សាទុក។</string>
-    <string name="address">Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+    <string name="address">Cambodia, #12, St. 323, Sangkat Beoung Kak 2 Khan Toul Kork</string>
     <string name="already_have_an_account">មានគណនេយ្យរួចហើយមែនទេ?</string>
     <string name="app_full_name">ALL KHMER NEWS</string>
     <string name="app_name">AKN</string>
@@ -16,6 +16,8 @@
     <string name="btn_change">ផ្លាស់ប្ដូរពាក្យសម្ងាត់</string>
     <string name="btn_login">ចុះឈ្មោះ</string>
     <string name="btn_update"> កែប្រែ</string>
+    <string name="buthmathearo">Buth Mathearo\nmathearo.buth@gmail.com</string>
+    <string name="chandana">Chan Dana\ndanachan235@gmail.com</string>
     <string name="chang_password">ផ្លាស់ប្ដូរពាក្យសម្ងាត់</string>
     <string name="complete_all_fills">សូមបំពេញរាល់ពត៌មានទាំងអស់។</string>
     <string name="confirm">បញ្ជាក់</string>
@@ -29,6 +31,7 @@
     <string name="delete">លុបចោល</string>
     <string name="delete_confirm"> តើអ្នកពិតជាចង់លុបមែនទេ?</string>
     <string name="deleted">លុបបាត់</string>
+    <string name="developed_by"> បង្កើតដោយ៖ Android AKN Team</string>
     <string name="email">info.kshrd@gmail.com</string>
     <string name="email_hint"> អ៊ីមែល</string>
     <string name="email_password_not_correct">អ៊ីមែលរឺពាក្យសម្ងាត់មិនត្រឹមត្រូវ។</string>
@@ -44,6 +47,7 @@
     <string name="item">Item</string>
     <string name="khmer">ខ្មែរ</string>
     <string name="language">ភាសា</string>
+    <string name="limseudy">Lim Seudy\nseudylim@gmail.com</string>
     <string name="list_by_category_activity">CATEGORY NAME</string>
     <string name="login">ចុះឈ្មោះ</string>
     <string name="login_failed">បរាជ័យក្នុងការចុះឈ្មោះ។</string>
@@ -97,54 +101,7 @@
     <string name="tab_category">ប្រភេទ</string>
     <string name="tab_home">ទំព័រដើម</string>
     <string name="tab_source">ប្រភព</string>
-    <string name="test">
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-    </string>
+    <string name="thornsereyvong">Thorn Sereyvong\nsereyvong98@</string>
     <string name="title_activity_login">ចុះឈ្មោះ</string>
     <string name="today">ថ្ងៃនេះ</string>
     <string name="try_again">ព្យាយាមម្ដងទៀត</string>

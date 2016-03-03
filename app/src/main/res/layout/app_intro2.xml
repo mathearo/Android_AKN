@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nav_bg_log_out"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:padding="10dp">
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:text="
-អានពត៌មានគ្រប់ទីកន្លែង គ្រប់ពេលវេលា ជាមួយ AKN "/>
+    android:background="@drawable/intro2">
 
-    <ImageView
-        android:layout_marginTop="20dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/akn_logo_white"/>
-
-   <!-- <Button android:id="@+id/btn"
-        android:layout_marginTop="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_background_gredient"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:text="
-ចាប់ផ្ដើមប្រើប្រាស់" />-->
-
-</LinearLayout>
+</FrameLayout>

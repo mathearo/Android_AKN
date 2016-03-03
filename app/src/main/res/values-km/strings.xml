@@ -76,57 +76,9 @@
 
     <!-- About Activity -->
     <string name="about_us" >AKN ឬ All Khmer News គឺជាកម្មវិធីពត៌មានមួយ ដែលផ្ដល់នូវពត៌មានជាច្រើនពីបណ្ដាវែបសាយល្បីៗក្នុងព្រះរាជាណាចក្រកម្ពុជា។ AKN បានរៀបចំពត៌មានទៅតាមប្រភេទដូចជា ពត៌មានសង្គម ពត៌មានអន្តរជាតិ ពត៌មានបច្ចេកវិទ្យា និងពត៌មានកំសាន្តជាដើម ដើម្បីអោយអ្នកអាន មានភាពងាយស្រួលក្នុងការអាន។ ដូច្នេះ សូមចាប់ផ្ដើមប្រើប្រាស់ AKN ចាប់ពីពេលនេះតទៅ។ សូមអរគុណ។</string>
-    <string name="test">
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-        ALL KHMER NEWS is a news application which provides news
-        content from various news websites. From socials, international, entertainment,
-        technology news to many other news categories, you can enjoy reading your favourite
-        news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-    </string>
     <string name="contact">*********************\n\n
         ទំនាក់ទំនងមកកាន់ពួកយើង</string>
-    <string name="address" >Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+    <string name="address" >Cambodia, #12, St. 323, Sangkat Beoung Kak 2 Khan Toul Kork</string>
     <string name="phone">+855 23 991 314</string>
     <string name="email">info.kshrd@gmail.com</string>
     <string name="website">news.khmeracademy.org</string>
@@ -196,4 +148,9 @@
     <string name="deleted">លុបបាត់</string>
     <string name="browse">បើករករូបភាពថ្មី</string>
     <string name="delete">លុបចោល</string>
+    <string name="developed_by"> បង្កើតដោយ៖ Android AKN Team</string>
+    <string name="buthmathearo">Buth Mathearo\nmathearo.buth@gmail.com</string>
+    <string name="chandana">Chan Dana\ndanachan235@gmail.com</string>
+    <string name="limseudy">Lim Seudy\nseudylim@gmail.com</string>
+    <string name="thornsereyvong">Thorn Sereyvong\nsereyvong98@</string>
 </resources>

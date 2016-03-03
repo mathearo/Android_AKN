@@ -64,12 +64,12 @@
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -98,6 +98,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_statistic.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\activity_statistic.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_akn_team.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\about_akn_team.xml"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
@@ -228,6 +232,10 @@
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_intro3.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\app_intro3.xml"
+    },
+    {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.daimajia.slider\\library\\1.1.5\\res\\layout\\render_type_text.xml"
     },
@@ -242,6 +250,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_intro_welcome.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\app_intro_welcome.xml"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\default_indicator.xml",
@@ -278,6 +290,10 @@
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_intro_last.xml",
+        "source": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\src\\main\\res\\layout\\app_intro_last.xml"
     },
     {
         "merged": "D:\\Projects\\Windows\\Android_Studio\\Android_AKN_Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_month.xml",

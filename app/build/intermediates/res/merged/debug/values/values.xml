@@ -345,14 +345,13 @@
         content from various news websites. From social, international, entertainment,
         technology news to many other news categories, you can enjoy reading your favourite
         news with our application. Start your new day with our application to know about things which
-        happen around the world quickly.
-    </string>
+        happen around the world quickly.</string>
     <string name="about_us_title">About Us</string>
     <string name="action_bookmark">Bookmark</string>
     <string name="action_save">Save</string>
     <string name="action_search">Search</string>
     <string name="added_to_saved_lists">Added to Saved Lists.</string>
-    <string name="address">Cambodia, #12, St. 323, Sangkat Beoung Kat 2 Khan Toul Kork</string>
+    <string name="address">Cambodia, #12, St. 323, Sangkak Beoung Kat 2 Khan Toul Kork</string>
     <string name="already_have_an_account">Already had an account?</string>
     <string name="app_full_name">ALL KHMER NEWS</string>
     <string name="app_name">AKN</string>
@@ -365,6 +364,8 @@
     <string name="btn_change">Change Password</string>
     <string name="btn_login">Login</string>
     <string name="btn_update">Update</string>
+    <string name="buthmathearo">Buth Mathearo\nmathearo.buth@gmail.com</string>
+    <string name="chandana">Chan Dana\ndanachan235@gmail.com</string>
     <string name="chang_password">Change Password</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
@@ -401,9 +402,7 @@
     <string name="confirm">Confirm</string>
     <string name="confirm_pass">Confirm Password</string>
     <string name="confirm_password_hint">Confirm Password</string>
-    <string name="contact">
-        *********************\n\n
-        CONTACT US</string>
+    <string name="contact">*********************\nCONTACT US</string>
     <string name="copyright">©Copyright 2016 KhmerAcademy</string>
     <string name="copyright_by">©Copyright 2016 KhmerAcademy</string>
     <string name="date_label">Date</string>
@@ -411,6 +410,7 @@
     <string name="delete">Delete</string>
     <string name="delete_confirm">Do you want to delete?</string>
     <string name="deleted">Deleted</string>
+    <string name="developed_by">Developed By: Android AKN Team</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_default_title">Here\'s a message!</string>
     <string name="dialog_ok">OK</string>
@@ -443,6 +443,7 @@
     <string name="library_appintro_libraryWebsite">https://github.com/PaoloRotolo/AppIntro</string>
     <string name="library_appintro_licenseId">apache_2_0</string>
     <string name="library_appintro_repositoryLink">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="limseudy">Lim Seudy\nseudylim@gmail.com</string>
     <string name="list_by_category_activity">CATEGORY NAME</string>
     <string name="login">Login</string>
     <string name="login_failed">Login failed</string>
@@ -498,6 +499,7 @@
     <string name="tab_category">CATEGORY</string>
     <string name="tab_home">HOME</string>
     <string name="tab_source">SOURCE</string>
+    <string name="thornsereyvong">Thorn Sereyvong\nsereyvong98@gmail.com</string>
     <string name="title_activity_login">Login</string>
     <string name="today">TODAY</string>
     <string name="try_again">Try Again</string>
@@ -1719,6 +1721,7 @@
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

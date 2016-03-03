@@ -220,7 +220,7 @@ public class ListByCategoryActivity extends AppCompatActivity {
         // Disable Fullscreen editing mode when enters text to SearchView
         //searchView.setImeOptions(searchView.getImeOptions() | EditorInfo.IME_ACTION_SEARCH | EditorInfo.IME_FLAG_NO_EXTRACT_UI | EditorInfo.IME_FLAG_NO_FULLSCREEN);
 
-        mSearchView.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
+        mSearchView.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI|EditorInfo.IME_ACTION_SEARCH);
 
         mSearchView.setOnQueryTextListener(mSearchViewListener);
         return true;
