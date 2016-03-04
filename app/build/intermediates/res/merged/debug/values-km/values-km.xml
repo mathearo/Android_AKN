@@ -97,7 +97,7 @@
     <string name="spinner_title2">Source</string>
     <string name="statistic">ពត៌មានពេញនិយម</string>
     <string name="success_change_password">ជោគជ័យក្នុងការផ្លាស់ប្ដូរពាក្យសម្ងាត់។</string>
-    <string name="success_update_profile">ជោគជ័យក្នុងការកែប្រែពត៌មានរបស់អ្នក។</string>
+    <string name="success_update_profile">ជោគជ័យក្នុងការកែប្រែពត៌មាន។</string>
     <string name="tab_category">ប្រភេទ</string>
     <string name="tab_home">ទំព័រដើម</string>
     <string name="tab_source">ប្រភព</string>
@@ -110,8 +110,8 @@
     <string name="unable_to_load_content">មិនអាចទាញទិន្នន័យបានទេ។​ មានបញ្ហាម៉ាស៊ីនមេ :(</string>
     <string name="username_hint">ឈ្មោះ</string>
     <string name="validation_not_empty">មិនអាចទទេរបានទេ។</string>
-    <string name="validation_pass_min_length">Password is too short.</string>
-    <string name="validation_valid_email">Must not be empty.</string>
+    <string name="validation_pass_min_length">ពាក្យសម្ងាត់ខ្លីពេកហើយ។</string>
+    <string name="validation_valid_email">អ៊ីមែលមិនត្រូវតាមទម្រង់នោះទេ។</string>
     <string name="view_label">View</string>
     <string name="website">news.khmeracademy.org</string>
     <string name="week">សប្ដាហ៍</string>

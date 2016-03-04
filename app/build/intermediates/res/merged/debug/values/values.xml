@@ -509,7 +509,7 @@
     <string name="username_hint">Username</string>
     <string name="validation_not_empty">Must not be empty.</string>
     <string name="validation_pass_min_length">Password is too short.</string>
-    <string name="validation_valid_email">Must not be empty.</string>
+    <string name="validation_valid_email">Email is not the correct form.</string>
     <string name="view_label">View</string>
     <string name="website">news.khmeracademy.org</string>
     <string name="week">WEEK</string>

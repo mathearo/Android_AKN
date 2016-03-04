@@ -293,8 +293,10 @@ public class AKNNavigationView {
         btnStatistic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mActivity, StatisticActivity.class);
-                mActivity.startActivity(intent);
+                if (!(mActivity.getClass().equals(StatisticActivity.class))) {
+                    Intent intent = new Intent(mActivity, StatisticActivity.class);
+                    mActivity.startActivity(intent);
+                }
             }
         });
 

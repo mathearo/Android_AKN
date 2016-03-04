@@ -2,7 +2,6 @@ package com.kshrd.android_akn.app;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -33,9 +32,11 @@ import java.util.Locale;
 import java.util.Map;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import eu.inmite.android.lib.validations.form.FormValidator;
 import eu.inmite.android.lib.validations.form.annotations.MinLength;
 import eu.inmite.android.lib.validations.form.annotations.NotEmpty;
 import eu.inmite.android.lib.validations.form.annotations.RegExp;
+import eu.inmite.android.lib.validations.form.callback.SimpleErrorPopupCallback;
 
 public class SignUpActivity extends AppCompatActivity {
     private Button btnSignUp;
@@ -46,7 +47,6 @@ public class SignUpActivity extends AppCompatActivity {
     private String gender[] = {"Male", "Female"};
 
     @NotEmpty(messageId = R.string.validation_not_empty, order = 1)
-    @RegExp(value = Validation.EMAIL_PATTERN, messageId = R.string.validation_valid_email,order = 2)
     private EditText etUsername;
 
     @NotEmpty(messageId = R.string.validation_not_empty, order = 1)
@@ -56,7 +56,6 @@ public class SignUpActivity extends AppCompatActivity {
     @NotEmpty(messageId = R.string.validation_not_empty, order = 1)
     @RegExp(value = Validation.EMAIL_PATTERN, messageId = R.string.validation_valid_email,order = 2)
     private EditText etEmail;
-    private Intent intent;
 
     private Tracker mTracker;
 
@@ -117,7 +116,9 @@ public class SignUpActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                signUp();
+                if (FormValidator.validate(SignUpActivity.this, new SimpleErrorPopupCallback(SignUpActivity.this))) {
+                    signUp();
+                }
             }
         });
     }

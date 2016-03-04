@@ -33,9 +33,11 @@ import java.util.Locale;
 import java.util.Map;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
+import eu.inmite.android.lib.validations.form.FormValidator;
 import eu.inmite.android.lib.validations.form.annotations.MinLength;
 import eu.inmite.android.lib.validations.form.annotations.NotEmpty;
 import eu.inmite.android.lib.validations.form.annotations.RegExp;
+import eu.inmite.android.lib.validations.form.callback.SimpleErrorPopupCallback;
 
 public class LoginActivity extends AppCompatActivity {
     private Button btnLogin;
@@ -44,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
     private Tracker mTracker;
 
     @NotEmpty(messageId = R.string.validation_not_empty, order = 1)
-    @RegExp(value = Validation.EMAIL_PATTERN, messageId = R.string.validation_valid_email,order = 2)
+    @RegExp(value = Validation.EMAIL_PATTERN, messageId = R.string.validation_valid_email, order = 2)
     private EditText etEmail;
 
     @NotEmpty(messageId = R.string.validation_not_empty, order = 1)
@@ -104,7 +106,9 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login();
+                if (FormValidator.validate(LoginActivity.this, new SimpleErrorPopupCallback(LoginActivity.this))){
+                    login();
+                }
             }
         });
 

@@ -1,7 +1,10 @@
 package com.kshrd.android_akn.app;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -18,6 +21,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -39,6 +43,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import jp.wasabeef.recyclerview.animators.adapters.ScaleInAnimationAdapter;
 
@@ -50,7 +55,6 @@ public class ListByCategoryActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private LinearLayoutManager mLayoutManager;
-    private Article mArticle;
     private List<Article> mArticles = new ArrayList<>();
     private ArticleAdapter mAdapter;
     /*private ParallaxArticleAdapter mAdapter;*/
@@ -75,6 +79,20 @@ public class ListByCategoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Check if user changed language
+        SharedPreferences sharedPref = getSharedPreferences("setting",
+                Context.MODE_PRIVATE);
+        Locale locale = null;
+        Configuration config = null;
+
+        if (locale == null) locale = new Locale(sharedPref.getString("LANGUAGE", "en"));
+        Locale.setDefault(locale);
+        if (config == null) config = new Configuration();
+        config.locale = locale;
+        getResources().updateConfiguration(config,
+                getResources().getDisplayMetrics());
+
         setContentView(R.layout.drawer_layout);
 
         FrameLayout frameLayout = (FrameLayout) findViewById(R.id.content_frame);
@@ -111,8 +129,6 @@ public class ListByCategoryActivity extends AppCompatActivity {
 
         // Get Category ID from Intent
         categoryId = getIntent().getExtras().getInt("CATEGORY_ID", 0);
-
-        //mAdapter.setParallaxHeader(null, null);
 
         // Handle SearchView
         mSearchViewListener = new SearchView.OnQueryTextListener(){
@@ -280,6 +296,17 @@ public class ListByCategoryActivity extends AppCompatActivity {
                         article.setUrl(jarticle.getString("url"));
                         article.setSiteLogo(jarticle.getJSONObject("site").getString("logo"));
                         mArticles.add(article);
+                    }
+
+                    // Check List
+                    if (mArticles.size() <= 0) {
+                        mSwipeRefreshLayout.setVisibility(View.GONE);
+                        RelativeLayout layout_no_news = (RelativeLayout) findViewById(R.id.layout_no_news);
+                        layout_no_news.setVisibility(View.VISIBLE);
+                    } else {
+                        mSwipeRefreshLayout.setVisibility(View.VISIBLE);
+                        RelativeLayout layout_no_news = (RelativeLayout) findViewById(R.id.layout_no_news);
+                        layout_no_news.setVisibility(View.GONE);
                     }
 
                 } catch (JSONException e) {
